@@ -1,0 +1,76 @@
+@font-face {
+  src: url(/fonts/inter-bold.woff2) format('woff2'),
+    url(/fonts/inter-bold.woff) format('woff');
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(/fonts/inter-regular.woff2) format('woff2'),
+    url(/fonts/inter-regular.woff) format('woff');
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(/fonts/inter-semibold.woff2) format('woff2'),
+    url(/fonts/inter-semibold.woff) format('woff');
+    font-family: 'Inter';
+  font-weight: 600;
+}
+
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  border: 1px solid gray;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+}
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.description {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 22px;
+  width: 80%;
+}
+
+.text_title {
+  color: rgb(135, 206, 250);
+  max-width: 165px;
+  display: block;
+  font-weight: 400;
+  font-size: 75%;
+}
+
+.text_about_school {
+  width: 80%;
+  display: block;
+}
