@@ -27,9 +27,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
-  border: 1px solid gray;
 }
 
 .header {
@@ -53,24 +52,123 @@
   margin-top: 80px;
 }
 
+h2, h3, div, section, p {
+  display: block;
+}
+
 .description {
-  margin: 100px;
+  margin: 100px 0;
+}
+
+.two-columns {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: space-between;
+}
+
+.two-columns__brief {
+  color: #2f80ed;
+  width: 175px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.two-columns__paragraph {
+  margin: 0 0 30px 0;
+}
+
+.two-columns__paragraph:last-child{
+  margin-bottom: 0;
+}
+
+.digits {
+  margin: 100px 0;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  padding-top: 20px;
   margin: 0 auto;
-  font-size: 22px;
-  width: 80%;
 }
 
-.text_title {
-  color: rgb(135, 206, 250);
-  max-width: 165px;
-  display: block;
-  font-weight: 400;
-  font-size: 75%;
+.table {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  max-width: 1100px;
 }
 
-.text_about_school {
-  width: 80%;
-  display: block;
+.table__sell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+ }
+
+.kaufman {
+  background-color: black;
+  padding: 90px 0;
+}
+
+.section-title_theme-dark {
+  color: white;
+  line-height: 1.15;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  line-height: 34px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.table__heading_theme_dark {
+  margin-bottom: 20px;
 }
