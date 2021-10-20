@@ -1,5 +1,6 @@
 .table__text {
-    line-height: 1.2;
-    font-weight: normal;
-    font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  font-size: 18px;
+  display: block;
 }

@@ -1,12 +1,12 @@
 .footer__column-link {
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: normal;  
-    text-decoration: none;
-    color: white;
-    list-style-type: none;
-    opacity: 1;
-  }
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;  
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  opacity: 1;
+}
 
 .footer__column-link:nth-of-type(2n) {
   margin-top: 10px;
