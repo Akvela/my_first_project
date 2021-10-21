@@ -6,4 +6,5 @@
   font-weight: bold;
   margin: 0 auto;
   display: block;
+  z-index: 1;
 }
