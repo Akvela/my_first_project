@@ -4,16 +4,10 @@
   font-weight: normal;  
   text-decoration: none;
   color: white;
-  list-style-type: none;
   opacity: 1;
-}
-
-.footer__column-link:nth-of-type(2n) {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  transition: color 1s ease-in;
 }
 
 .footer__column-link:hover {
-  transition: color 1s ease-in;
   opacity: .5;
 }

@@ -7,9 +7,10 @@
   font-weight: normal;
   padding-left: 48px;
   margin: 0;
+  transition: color 1s ease-in;
+  align-self: baseline;
 }
   
 .khan__buy-link:hover {
-  transition: color 1s ease-in;
   opacity: .6;
 }

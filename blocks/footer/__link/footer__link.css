@@ -1,0 +1,8 @@
+.footer__link {
+  list-style-type: none;
+}
+
+.footer__link:nth-of-type(2n) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
